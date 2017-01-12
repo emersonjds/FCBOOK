@@ -26,10 +26,13 @@
 	height: auto;
 	background-color: #d1d1d1;
 	
+	section {
+		margin: .5em 0;
+	}
+
 	.section-call-to-login {
 		background-color: #fff;
 		padding: .5em;
-		margin: .5em 0;
 		.btn-call-to-login {
 			width: 100%;
 			color: #000;
@@ -43,5 +46,15 @@
 		.book-img {
 			@include flex;
 		}
+	}
+
+	.section-related-itens {
+		background-color: #fff;
+		padding: .5em;
+	}
+
+	.section-book-discount {
+		background-color: #fff;
+		padding: .5em;
 	}
 }
