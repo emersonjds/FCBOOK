@@ -1,0 +1,23 @@
+.index-main {
+  height: calc(100% - 82px);
+  margin-top: 53px; }
+
+.book-img img {
+  height: 150px;
+  width: 120px; }
+
+.section_tecnology-books title-section, .section_entrepreneurship-books title-section {
+  margin-top: 1em; }
+.section_tecnology-books .informacoes-do-livro, .section_entrepreneurship-books .informacoes-do-livro {
+  margin-top: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+  .section_tecnology-books .informacoes-do-livro .preco-sugerido, .section_entrepreneurship-books .informacoes-do-livro .preco-sugerido {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+
+/*# sourceMappingURL=index.css.map */
