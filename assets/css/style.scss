@@ -1,15 +1,39 @@
+@import "default-variables";
 @import "index";
+@import "categorias";
 
 html,body {
 	height: 100%;
 	width: 100%;
 	margin: 0;
 	padding: 0;
-	
+	//background-image: url("../img/background.jpg");
+	//background-size: cover; 
+}
+
+header {
+	height: 52px;
+}
+
+.navbar-invese {
+	background-color: #232f3e;
+}
+
+.navbar-submenu {
+	position: absolute;
+	right: 20px;
+	margin-top: 18px;
 }
 
 .footer {
+	background-color: #000;
 	height: 30px;
+	@include flex;
+
+	.description-footer {
+		color: orange;
+		text-align: center;	
+	}
 }
 
 

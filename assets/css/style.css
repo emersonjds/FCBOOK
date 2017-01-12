@@ -1,20 +1,65 @@
+.header-index {
+  height: 145px; }
+
+.input-search {
+  width: 100%; }
+
+.navegation-buttons {
+  height: 60px; }
+  .navegation-buttons .store, .navegation-buttons .wish-list, .navegation-buttons .offers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center; }
+  .navegation-buttons .button-store, .navegation-buttons .button-wish-list, .navegation-buttons .button-offers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: bold; }
+
 .index-main {
-  height: calc(100% - 82px);
-  margin-top: 53px; }
+  height: auto;
+  background-color: #d1d1d1; }
+  .index-main .section-call-to-login {
+    background-color: #fff;
+    padding: .5em;
+    margin: .5em 0; }
+    .index-main .section-call-to-login .btn-call-to-login {
+      width: 100%;
+      color: #000; }
+  .index-main .section-offers {
+    background-color: #fff;
+    padding: .5em; }
+    .index-main .section-offers .book-img {
+      display: flex;
+      align-items: center;
+      justify-content: center; }
 
 .book-img img {
   height: 150px;
   width: 120px; }
 
-.section_tecnology-books title-section, .section_entrepreneurship-books title-section {
+.section_tecnology-books, .section_psicology-books, .section_entrepreneurship-books, .section_biograpies-books {
+  height: auto;
+  background-color: #fff;
+  padding: 1em; }
+  .section_tecnology-books .book-area, .section_psicology-books .book-area, .section_entrepreneurship-books .book-area, .section_biograpies-books .book-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+
+.section_tecnology-books title-section, .section_psicology-books title-section, .section_entrepreneurship-books title-section, .section_biograpies-books title-section {
   margin-top: 1em; }
-.section_tecnology-books .informacoes-do-livro, .section_entrepreneurship-books .informacoes-do-livro {
-  margin-top: 1em;
+.section_tecnology-books .informacoes-do-livro, .section_psicology-books .informacoes-do-livro, .section_entrepreneurship-books .informacoes-do-livro, .section_biograpies-books .informacoes-do-livro {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column; }
-  .section_tecnology-books .informacoes-do-livro .preco-sugerido, .section_entrepreneurship-books .informacoes-do-livro .preco-sugerido {
+  flex-direction: column;
+  margin-top: 1em; }
+  .section_tecnology-books .informacoes-do-livro .preco-sugerido, .section_psicology-books .informacoes-do-livro .preco-sugerido, .section_entrepreneurship-books .informacoes-do-livro .preco-sugerido, .section_biograpies-books .informacoes-do-livro .preco-sugerido {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,7 +71,25 @@ html, body {
   margin: 0;
   padding: 0; }
 
+header {
+  height: 52px; }
+
+.navbar-invese {
+  background-color: #232f3e; }
+
+.navbar-submenu {
+  position: absolute;
+  right: 20px;
+  margin-top: 18px; }
+
 .footer {
-  height: 30px; }
+  background-color: #000;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .footer .description-footer {
+    color: orange;
+    text-align: center; }
 
 /*# sourceMappingURL=style.css.map */

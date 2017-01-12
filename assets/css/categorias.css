@@ -1,23 +1,23 @@
 /*
 Error: Undefined mixin 'flex'.
-        on line 12 of assets/css/index.scss, in `flex'
-        from line 12 of assets/css/index.scss
+        on line 14 of assets/css/categorias.scss, in `flex'
+        from line 14 of assets/css/categorias.scss
 
-7: }
-8: 
-9: .navegation-buttons {
-10: 	height	: 60px;
-11: 	.store, .wish-list, .offers {
-12: 		@include flex;
-13: 		height: 100%;
-14: 		text-align: center;
-15: 
+9: 	height: auto;
+10: 	background-color: #fff;
+11: 	padding: 1em;
+12: 
+13: 	.book-area {
+14: 		@include flex;
+15: 		flex-direction: column;
 16: 	}
-17: 
+17: }
+18: 
+19: .section_tecnology-books, .section_psicology-books, .section_entrepreneurship-books, .section_biograpies-books {
 
 Backtrace:
-assets/css/index.scss:12:in `flex'
-assets/css/index.scss:12
+assets/css/categorias.scss:14:in `flex'
+assets/css/categorias.scss:14
 C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:351:in `block in visit_mixin'
 C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
@@ -80,4 +80,4 @@ C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/vendor/listen/lib/listen/adap
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'flex'.\A         on line 12 of assets/css/index.scss, in `flex'\A         from line 12 of assets/css/index.scss\A \A 7: }\A 8: \A 9: .navegation-buttons {\A 10: 	height	: 60px;\A 11: 	.store, .wish-list, .offers {\A 12: 		@include flex;\A 13: 		height: 100%;\A 14: 		text-align: center;\A 15: \A 16: 	}\A 17: "; }
+  content: "Error: Undefined mixin 'flex'.\A         on line 14 of assets/css/categorias.scss, in `flex'\A         from line 14 of assets/css/categorias.scss\A \A 9: 	height: auto;\A 10: 	background-color: #fff;\A 11: 	padding: 1em;\A 12: \A 13: 	.book-area {\A 14: 		@include flex;\A 15: 		flex-direction: column;\A 16: 	}\A 17: }\A 18: \A 19: .section_tecnology-books, .section_psicology-books, .section_entrepreneurship-books, .section_biograpies-books {"; }

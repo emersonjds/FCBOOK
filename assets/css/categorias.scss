@@ -1,0 +1,36 @@
+.book-img {
+	img {
+		height: 150px;
+		width: 120px;
+	}
+}
+
+.section_tecnology-books, .section_psicology-books, .section_entrepreneurship-books, .section_biograpies-books {
+	height: auto;
+	background-color: #fff;
+	padding: 1em;
+
+	.book-area {
+		@include flex;
+		flex-direction: column;
+	}
+}
+
+.section_tecnology-books, .section_psicology-books, .section_entrepreneurship-books, .section_biograpies-books {
+	title-section {
+		margin-top: 1em;
+	}
+
+	.informacoes-do-livro {
+		@include flex;
+		flex-direction: column;
+		margin-top: 1em;
+		.preco-sugerido {
+			@include flex;
+			flex-direction: column;
+		}
+	
+	}
+}
+
+
