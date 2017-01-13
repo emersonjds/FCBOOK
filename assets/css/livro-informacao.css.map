@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAA,sBAAuB;EACtB,MAAM,EAAE,iBAAiB",
+"mappings": "AAAA,sBAAuB;EACtB,MAAM,EAAE,iBAAiB;;AAIzB,eAAI;EACH,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,KAAK",
 "sources": ["livro-informacao.scss"],
 "names": [],
 "file": "livro-informacao.css"

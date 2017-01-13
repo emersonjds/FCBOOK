@@ -1,23 +1,21 @@
 /*
 Error: Undefined mixin 'flex'.
-        on line 7 of assets/css/livro-informacao.scss, in `flex'
-        from line 7 of assets/css/livro-informacao.scss
+        on line 4 of assets/css/obrigado.scss, in `flex'
+        from line 4 of assets/css/obrigado.scss
 
-2: 	height: auto;
-3: 	padding: 1em;
-4: }
-5: 
-6: .book-cover {
-7: 	@include flex;
-8: 
-9: 	img {
-10: 		height: 300px;
-11: 		width: 250px;
-12: 	}
+1: .thanks-main {
+2: 	height: calc(100% - 82px);
+3: 	background-image: url('../img/bg-thanks.jpg');
+4: 	@include flex;
+5: }
+6: 
+7: .msg-thanks {
+8: 	@include flex;
+9: 	height: 300px;
 
 Backtrace:
-assets/css/livro-informacao.scss:7:in `flex'
-assets/css/livro-informacao.scss:7
+assets/css/obrigado.scss:4:in `flex'
+assets/css/obrigado.scss:4
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:351:in `block in visit_mixin'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:98:in `block in with_mixin'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
@@ -72,4 +70,4 @@ assets/css/livro-informacao.scss:7
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'flex'.\A         on line 7 of assets/css/livro-informacao.scss, in `flex'\A         from line 7 of assets/css/livro-informacao.scss\A \A 2: 	height: auto;\A 3: 	padding: 1em;\A 4: }\A 5: \A 6: .book-cover {\A 7: 	@include flex;\A 8: \A 9: 	img {\A 10: 		height: 300px;\A 11: 		width: 250px;\A 12: 	}"; }
+  content: "Error: Undefined mixin 'flex'.\A         on line 4 of assets/css/obrigado.scss, in `flex'\A         from line 4 of assets/css/obrigado.scss\A \A 1: .thanks-main {\A 2: 	height: calc(100% - 82px);\A 3: 	background-image: url('../img/bg-thanks.jpg');\A 4: 	@include flex;\A 5: }\A 6: \A 7: .msg-thanks {\A 8: 	@include flex;\A 9: 	height: 300px;"; }

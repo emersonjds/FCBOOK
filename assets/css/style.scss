@@ -3,12 +3,14 @@
 @import "categorias";
 @import "login";
 @import "livro-informacao";
+@import "carrinho";
+@import "obrigado";
 
 html,body {
 	height: 100%;
-	width: 100%;
 	margin: 0;
 	padding: 0;
+	width: 100%;
 }
 
 header {
@@ -20,24 +22,29 @@ header {
 }
 
 .navbar-submenu {
+	margin-top: 18px;
 	position: absolute;
 	right: 20px;
-	margin-top: 18px;
 }
 
 .logo-fcamara {
-	color: orange;
+	color: #dd9933;
+}
+
+.menu-text, .menu-icon-login, .menu-icon-cart {
+	color: #fff;
+	margin-left: 1em;
 }
 
 .footer {
+	@include flex;
 	background-color: #000;
 	height: 30px;
-	@include flex;
 	position: absolute;
 	width: 100%;
 
 	.description-footer {
-		color: orange;
+		color: #dd9933;
 		text-align: center;	
 	}
 }

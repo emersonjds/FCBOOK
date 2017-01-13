@@ -4,6 +4,14 @@
 .input-search {
   width: 100%; }
 
+.menu-icon-seach {
+  background-color: orange;
+  color: #fff; }
+
+.btn-search-icon {
+  background: transparent;
+  border: none; }
+
 .navegation-buttons {
   height: 60px; }
   .navegation-buttons .store, .navegation-buttons .wish-list, .navegation-buttons .offers {
@@ -36,7 +44,8 @@
     .index-main .section-offers .book-img {
       display: flex;
       align-items: center;
-      justify-content: center; }
+      justify-content: center;
+      cursor: pointer; }
   .index-main .section-related-itens {
     background-color: #fff;
     padding: .5em; }
@@ -47,6 +56,8 @@
 .book-img img {
   height: 150px;
   width: 120px; }
+.book-img a {
+  cursor: pointer; }
 
 .section_tecnology-books, .section_psicology-books, .section_entrepreneurship-books, .section_biograpies-books {
   height: auto;
@@ -71,6 +82,8 @@
     align-items: center;
     justify-content: center;
     flex-direction: column; }
+  .section_tecnology-books .informacoes-do-livro .preco, .section_psicology-books .informacoes-do-livro .preco, .section_entrepreneurship-books .informacoes-do-livro .preco, .section_biograpies-books .informacoes-do-livro .preco {
+    color: #fff; }
 
 .login-main {
   height: calc(100% - 82px);
@@ -97,6 +110,9 @@
   left: 50px; }
 
 .btn-fazer-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   color: #000;
   height: 3.5em;
@@ -124,13 +140,110 @@
     border-bottom: 1px solid black; }
 
 .information-book-main {
+  height: auto;
+  padding: 1em; }
+
+.book-cover {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .book-cover img {
+    height: 300px;
+    width: 250px; }
+
+.input-qtde {
+  width: 120px;
+  margin-bottom: 1em; }
+
+.book-data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+
+.btn-add-to-cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 3.5em;
+  color: #000;
+  background: #f0c14b;
+  border-color: #a88734 #9c7e31 #846a29; }
+
+.row-qtde {
+  display: flex;
+  margin-bottom: .5em; }
+
+.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+  width: 70px; }
+
+.carrinho-main {
   height: calc(100% - 82px); }
+
+.row-information {
+  margin: 1em 0 0 0; }
+
+.value-itens-cart {
+  font-weight: bold;
+  color: #d22525; }
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.btn-confirma-pagamento {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: #000;
+  height: 3.5em;
+  background: #f0c14b;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+  margin: 1.5em 0; }
+
+.row-book-1 {
+  border-top: 1px solid #ccc; }
+
+.row-book {
+  padding: 1em;
+  border-bottom: 1px solid #ccc; }
+  .row-book ._book-img img {
+    height: 120px;
+    width: 100px; }
+  .row-book .book-buttons-action .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+    width: 60px; }
+  .row-book .book-buttons-action .btn-group .bootstrap-select {
+    margin-right: 1em; }
+  .row-book .book-buttons-action .action-buttons {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0; }
+
+.thanks-main {
+  height: calc(100% - 82px);
+  background-image: url("../img/bg-thanks.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.msg-thanks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  width: 350px;
+  background-color: rgba(250, 250, 250, 0.6);
+  border-radius: 15px; }
 
 html, body {
   height: 100%;
-  width: 100%;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  width: 100%; }
 
 header {
   height: 52px; }
@@ -139,23 +252,27 @@ header {
   background-color: #232f3e; }
 
 .navbar-submenu {
+  margin-top: 18px;
   position: absolute;
-  right: 20px;
-  margin-top: 18px; }
+  right: 20px; }
 
 .logo-fcamara {
-  color: orange; }
+  color: #dd9933; }
+
+.menu-text, .menu-icon-login, .menu-icon-cart {
+  color: #fff;
+  margin-left: 1em; }
 
 .footer {
-  background-color: #000;
-  height: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #000;
+  height: 30px;
   position: absolute;
   width: 100%; }
   .footer .description-footer {
-    color: orange;
+    color: #dd9933;
     text-align: center; }
 
 /*# sourceMappingURL=style.css.map */

@@ -4,9 +4,15 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="initial-scale=1">
-	<title>Document</title>
+	<title>Informações de Livro</title>
 	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="node_modules/bootstrap-select/dist/css/bootstrap-select.min.css">
 	<link rel="stylesheet" href="assets/css/style.css">
+	
+	<link rel="icon" type="image/png" href="assets/img/favicon.ico" sizes="32x32">
+	<link rel="icon" type="image/png" href="assets.img/favicon.ico" sizes="16x16">
+
 </head>
 
 <body>
@@ -15,42 +21,92 @@
 			<div class="container-fluid">
 				<div class="navbar-header">
 
-				<div class="navbar-submenu">
-					<span style="color: #fff;">Faça seu login</span><i class="glyphicon glyphicon-user login-icon" style="color:#fff; margin-left: 1em;"></i>
-					<span style="color: #fff;"><i class="glyphicon glyphicon-shopping-cart buy-icon" style="color:#fff; margin-left: 1em;"></i></span>
-				</div>
+					<div class="navbar-submenu">
+						<a href="login.html"><span class="menu-text">Faça seu login</span><i class="glyphicon glyphicon-user menu-icon-login"></i></a>
+						<a href="carrinho.html"><span><i class="glyphicon glyphicon-shopping-cart menu-icon-cart"></i></span></a>
+					</div>
 					
-				<a class="navbar-brand" href="#"><i style="color: orange;">FCBOOK</i></a>
-			</div>
+					<a class="navbar-brand" href="index.html"><i class="logo-fcamara">FCBOOK</i></a>
+				</div>
 
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav">
-					<li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-					<li><a href="#">Link</a></li>
-				</ul>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+						<li><a href="#">Link</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<main class="information-book-main">
+		<div class="container">
+
+			<div class="row">
+				<div class="col-xs-12">
+					<section class="book-information">
+
+						<figure class="book-cover">
+							<img src="assets/img/tecnology/image-06.jpg" alt="Java cover book">
+						</figure>
+
+						<div class="book-data">
+							<div class="book-autor">
+								<a href="#">Jonathan Knudsen, Patrick Niemeyer</a>
+							</div>
+							<div class="book-title">
+								<p><strong>Learning Java</strong></p>
+							</div>
+							<div class="book-description">
+								<p>Start your programming career by learning Java SE (Java Standard Edition) and teach yourself to develop professional applications for desktop PCs</p>
+							</div>
+							<div class="book-edition">
+								<strong>First Edition</strong>
+							</div>
+							<div class="book-value">
+								<h4>R$ 165,57</h4>
+							</div>
+						</div>
+
+						<div class="book-action-buttons">
+
+							<div class="row">
+								<div class="col-xs-10 row-qtde">
+									<select class="selectpicker">
+										<option>1</option>
+										<option>2</option>
+										<option>3</option>
+										<option>4</option>
+										<option>5</option>
+										<option>6</option>
+									</select>
+								</div>
+							</div>
+
+							<a href="carrinho.html" class="btn btn-warning btn-add-to-cart" aria-label="Left Align"> Adicionar ao carrinho
+								<span><i class="fa fa-cart-plus fa-1x" aria-hidden="true"></i></span>
+							</a>
+						</div>
+					</section>
+
+				</div>
 			</div>
 		</div>
-	</nav>
-</header>
-
-<main class="information-book-main">
-	<div class="container">
+	</main>
 
 
-	</div>
-</main>
-
-
-<footer class="footer">
-	<div class="container">
-		<div class="description-footer">
-			&copy <strong>FCBOOK</strong> - Todos os direitos reservados
+	<footer class="footer">
+		<div class="container">
+			<div class="description-footer">
+				&copy <strong>FCBOOK</strong> - Todos os direitos reservados
+			</div>
 		</div>
-	</div>
-</footer>
+	</footer>
 
-<script src="node_modules/jquery/dist/jquery.min.js"></script>
-<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="node_modules/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+
 
 </body>
 

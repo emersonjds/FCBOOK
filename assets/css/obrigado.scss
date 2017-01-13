@@ -1,0 +1,13 @@
+.thanks-main {
+	height: calc(100% - 82px);
+	background-image: url('../img/bg-thanks.jpg');
+	@include flex;
+}
+
+.msg-thanks {
+	@include flex;
+	height: 300px;
+	width: 350px;
+	background-color: rgba(250, 250, 250, .6);
+	border-radius: 15px;
+}

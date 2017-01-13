@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1">
+	<title>Carrinho</title>
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="node_modules/bootstrap-select/dist/css/bootstrap-select.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+
+	<link rel="icon" type="image/png" href="assets/img/favicon.ico" sizes="32x32">
+	<link rel="icon" type="image/png" href="assets.img/favicon.ico" sizes="16x16">
+</head>
+
+<body>
+	<header>
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container-fluid">
+				<div class="navbar-header">
+
+					<div class="navbar-submenu">
+						<a href="login.html"><span class="menu-text">Faça seu login</span><i class="glyphicon glyphicon-user menu-icon-login"></i></a>
+						<a href="carrinho.html"><span><i class="glyphicon glyphicon-shopping-cart menu-icon-cart"></i></span></a>
+					</div>
+					
+					<a class="navbar-brand" href="index.html"><i class="logo-fcamara">FCBOOK</i></a>
+				</div>
+
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+						<li><a href="#">Link</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<main class="carrinho-main">
+		<div class="container">
+			<div class="row row-information">
+				<div class="col-xs-10 sales-information">
+					<p>Itens no carrinhos (8 items) : <span class="value-itens-cart">R$ 95,00</span> </p> 
+				</div>
+
+				<div class="col-xs-2 icon">
+					<i class="glyphicon glyphicon-chevron-down"></i>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-xs-12">
+					<a href="obrigado.html" class="btn btn-warning btn-confirma-pagamento">Finalizar comprar</a>
+				</div>
+			</div>
+
+			<div class="row row-book row-book-1">
+				<div class="col-xs-5 _book-img">
+					<figure>
+						<img src="assets/img/tecnology/image-07.jpg" alt="cover Java book">
+					</figure>
+				</div>
+
+				<div class="col-xs-7 book-data">
+					<div class="_book-title">
+						<p>Head First Java</p>
+					</div>
+					<div class="_book-autor">David Brenaman</div>
+					<div class="_book-value">
+						<p class="_book-value">R$ 95,00</p>
+					</div>
+				</div>
+
+				<div class="book-buttons-action">
+					<div class="row">
+						<div class="col-xs-6 action-buttons">
+							<select class="selectpicker">
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+								<option>6</option>
+							</select>
+							<button class="btn btn-delete">Delete</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row row-book">
+				<div class="col-xs-5 _book-img">
+					<figure>
+						<img src="assets/img/tecnology/image-08.png" alt="cover Eloquent Javascript">
+					</figure>
+				</div>
+
+				<div class="col-xs-7 book-data">
+					<div class="_book-title">
+						<p>Eloquent Javascript</p>
+					</div>
+					<div class="_book-autor">David Brenaman</div>
+					<div class="_book-value">
+						<p class="_book-value">R$ 95,00</p>
+					</div>
+				</div>
+
+				<div class="book-buttons-action">
+					<div class="row">
+						<div class="col-xs-6 action-buttons">
+							<select class="selectpicker">
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+								<option>6</option>
+							</select>
+							<button class="btn btn-delete">Delete</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row row-book">
+				<div class="col-xs-5 _book-img">
+					<figure>
+						<img src="assets/img/tecnology/image-09.jpeg" alt="cover Eloquent Javascript">
+					</figure>
+				</div>
+
+				<div class="col-xs-7 book-data">
+					<div class="_book-title">
+						<p>Eloquent Javascript</p>
+					</div>
+					<div class="_book-autor">Erick Dutsh</div>
+					<div class="_book-value">
+						<p class="_book-value">R$ 75,00</p>
+					</div>
+				</div>
+
+				<div class="book-buttons-action">
+					<div class="row">
+						<div class="col-xs-6 action-buttons">
+							<select class="selectpicker">
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+								<option>6</option>
+							</select>
+							<button class="btn btn-delete">Delete</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+
+	<footer class="footer">
+		<div class="container">
+			<div class="description-footer">
+				&copy <strong>FCBOOK</strong> - Todos os direitos reservados
+			</div>
+		</div>
+	</footer>
+
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="node_modules/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+
+</body>
+
+</html>

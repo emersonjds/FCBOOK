@@ -1,0 +1,61 @@
+.carrinho-main {
+	height: calc(100% - 82px);
+}
+
+.row-information {
+	margin: 1em 0 0 0;
+}
+
+.value-itens-cart {
+	font-weight: bold;
+	color: #d22525;
+}
+
+.icon {
+	@include flex;
+}
+
+.btn-confirma-pagamento {
+	@include flex;
+	width: 100%;
+	color: #000;
+	height: 3.5em;
+	background: #f0c14b;
+	border-color: #a88734 #9c7e31 #846a29;
+	color: #111;
+	margin: 1.5em 0;
+}
+
+.row-book-1 {
+	border-top: 1px solid #ccc;
+}
+
+.row-book {
+	padding: 1em;
+	border-bottom: 1px solid #ccc;
+
+	._book-img {
+		img {
+			height: 120px;
+			width: 100px;
+		}
+	}
+
+	.book-buttons-action {
+		.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+			width: 60px;
+		}
+		.btn-group .bootstrap-select {
+			margin-right: 1em;
+		}
+
+		.action-buttons {
+			display: flex;
+			justify-content: space-around;
+			padding-left: 0;
+		}
+	}
+
+	
+}
+

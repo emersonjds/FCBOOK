@@ -28,6 +28,7 @@
 }
 
 .btn-fazer-login {
+	@include flex;
 	width: 100%;
 	color: #000;
 	height: 3.5em;

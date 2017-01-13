@@ -1,23 +1,23 @@
 /*
 Error: Undefined mixin 'flex'.
-        on line 7 of assets/css/livro-informacao.scss, in `flex'
-        from line 7 of assets/css/livro-informacao.scss
+        on line 15 of assets/css/carrinho.scss, in `flex'
+        from line 15 of assets/css/carrinho.scss
 
-2: 	height: auto;
-3: 	padding: 1em;
-4: }
-5: 
-6: .book-cover {
-7: 	@include flex;
-8: 
-9: 	img {
-10: 		height: 300px;
-11: 		width: 250px;
-12: 	}
+10: 	font-weight: bold;
+11: 	color: #d22525;
+12: }
+13: 
+14: .icon {
+15: 	@include flex;
+16: }
+17: 
+18: .btn-confirma-pagamento {
+19: 	@include flex;
+20: 	width: 100%;
 
 Backtrace:
-assets/css/livro-informacao.scss:7:in `flex'
-assets/css/livro-informacao.scss:7
+assets/css/carrinho.scss:15:in `flex'
+assets/css/carrinho.scss:15
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:351:in `block in visit_mixin'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:98:in `block in with_mixin'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
@@ -72,4 +72,4 @@ assets/css/livro-informacao.scss:7
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'flex'.\A         on line 7 of assets/css/livro-informacao.scss, in `flex'\A         from line 7 of assets/css/livro-informacao.scss\A \A 2: 	height: auto;\A 3: 	padding: 1em;\A 4: }\A 5: \A 6: .book-cover {\A 7: 	@include flex;\A 8: \A 9: 	img {\A 10: 		height: 300px;\A 11: 		width: 250px;\A 12: 	}"; }
+  content: "Error: Undefined mixin 'flex'.\A         on line 15 of assets/css/carrinho.scss, in `flex'\A         from line 15 of assets/css/carrinho.scss\A \A 10: 	font-weight: bold;\A 11: 	color: #d22525;\A 12: }\A 13: \A 14: .icon {\A 15: 	@include flex;\A 16: }\A 17: \A 18: .btn-confirma-pagamento {\A 19: 	@include flex;\A 20: 	width: 100%;"; }

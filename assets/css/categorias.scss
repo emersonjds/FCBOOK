@@ -3,6 +3,10 @@
 		height: 150px;
 		width: 120px;
 	}
+
+	a {
+		cursor: pointer;
+	}
 }
 
 .section_tecnology-books, .section_psicology-books, .section_entrepreneurship-books, .section_biograpies-books {
@@ -28,6 +32,10 @@
 		.preco-sugerido {
 			@include flex;
 			flex-direction: column;
+		}
+
+		.preco {
+			color: #fff;
 		}
 	
 	}

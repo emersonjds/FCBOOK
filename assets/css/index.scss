@@ -6,6 +6,16 @@
 	width: 100%;
 }
 
+.menu-icon-seach {
+	background-color: orange;
+	color: #fff;
+}
+
+.btn-search-icon {
+	background:transparent;
+	border:none;
+}
+
 .navegation-buttons {
 	height	: 60px;
 	.store, .wish-list, .offers {
@@ -45,6 +55,7 @@
 
 		.book-img {
 			@include flex;
+			cursor:pointer;
 		}
 	}
 
