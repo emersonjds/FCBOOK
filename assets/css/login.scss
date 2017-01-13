@@ -1,0 +1,64 @@
+.login-main {
+	height: calc(100% - 82px);
+	background-color: #f6f6f6;
+}
+
+.row-title-login {
+	@include flex;
+
+	.remember-password {
+		margin-top: 10px;
+	}
+}
+
+.square-input {
+	height: 2.3rem;
+	width: 2.3rem;
+}
+
+.input-email, .input-senha {
+	border-radius: 0;
+	height: 50px;
+}
+
+.show-password, .keep-me-connected {
+	position: absolute;
+    margin-top: -25px;
+    left: 50px;
+}
+
+.btn-fazer-login {
+	width: 100%;
+	color: #000;
+	height: 3.5em;
+	background: #f0c14b;
+	border-color: #a88734 #9c7e31 #846a29;
+	color: #111;
+	margin: 3em 0; 
+}
+
+.btn-register{
+	width: 100%;
+	background: #f3f4f6;
+	margin: 2em 0; 
+	color: #000;
+	height: 3.5em;
+	border-color: rgba(191,191,191,1);
+}
+
+.row-legends {
+	flex-direction: column;
+	position: relative;
+
+	.legend {
+		text-align: center;
+		margin-top: -24px;
+	}
+
+	.aside-left, .aside-right {
+		width: 30%;
+		border-bottom: 1px solid black;
+	}
+	
+}
+

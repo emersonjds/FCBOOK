@@ -1,14 +1,14 @@
 @import "default-variables";
 @import "index";
 @import "categorias";
+@import "login";
+@import "livro-informacao";
 
 html,body {
 	height: 100%;
 	width: 100%;
 	margin: 0;
 	padding: 0;
-	//background-image: url("../img/background.jpg");
-	//background-size: cover; 
 }
 
 header {
@@ -25,10 +25,16 @@ header {
 	margin-top: 18px;
 }
 
+.logo-fcamara {
+	color: orange;
+}
+
 .footer {
 	background-color: #000;
 	height: 30px;
 	@include flex;
+	position: absolute;
+	width: 100%;
 
 	.description-footer {
 		color: orange;

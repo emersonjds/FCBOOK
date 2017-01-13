@@ -72,6 +72,60 @@
     justify-content: center;
     flex-direction: column; }
 
+.login-main {
+  height: calc(100% - 82px);
+  background-color: #f6f6f6; }
+
+.row-title-login {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .row-title-login .remember-password {
+    margin-top: 10px; }
+
+.square-input {
+  height: 2.3rem;
+  width: 2.3rem; }
+
+.input-email, .input-senha {
+  border-radius: 0;
+  height: 50px; }
+
+.show-password, .keep-me-connected {
+  position: absolute;
+  margin-top: -25px;
+  left: 50px; }
+
+.btn-fazer-login {
+  width: 100%;
+  color: #000;
+  height: 3.5em;
+  background: #f0c14b;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+  margin: 3em 0; }
+
+.btn-register {
+  width: 100%;
+  background: #f3f4f6;
+  margin: 2em 0;
+  color: #000;
+  height: 3.5em;
+  border-color: #bfbfbf; }
+
+.row-legends {
+  flex-direction: column;
+  position: relative; }
+  .row-legends .legend {
+    text-align: center;
+    margin-top: -24px; }
+  .row-legends .aside-left, .row-legends .aside-right {
+    width: 30%;
+    border-bottom: 1px solid black; }
+
+.information-book-main {
+  height: calc(100% - 82px); }
+
 html, body {
   height: 100%;
   width: 100%;
@@ -89,12 +143,17 @@ header {
   right: 20px;
   margin-top: 18px; }
 
+.logo-fcamara {
+  color: orange; }
+
 .footer {
   background-color: #000;
   height: 30px;
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  position: absolute;
+  width: 100%; }
   .footer .description-footer {
     color: orange;
     text-align: center; }
