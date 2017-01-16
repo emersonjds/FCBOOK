@@ -1,5 +1,9 @@
 .header-index {
-	height: 145px;
+	height: 100px;
+
+	.search-area {
+		padding: .5em;
+	}
 }
 
 .input-search {
@@ -16,56 +20,18 @@
 	border:none;
 }
 
-.navegation-buttons {
-	height	: 60px;
-	.store, .wish-list, .offers {
-		@include flex;
-		height: 100%;
-		text-align: center;
-
-	}
-
-	.button-store, .button-wish-list, .button-offers {
-		@include flex;
-		color: #fff;
-		font-weight: bold;
-	}
-}
-
 .index-main {
 	height: auto;
 	background-color: #d1d1d1;
-	
-	section {
-		margin: .5em 0;
-	}
-
-	.section-call-to-login {
-		background-color: #fff;
-		padding: .5em;
-		.btn-call-to-login {
-			width: 100%;
-			color: #000;
-		}
-	}
-
-	.section-offers {
-		background-color: #fff;
-		padding: .5em;
-
-		.book-img {
-			@include flex;
-			cursor:pointer;
-		}
-	}
 
 	.section-related-itens {
-		background-color: #fff;
 		padding: .5em;
-	}
 
-	.section-book-discount {
-		background-color: #fff;
-		padding: .5em;
+		.row-book {
+			background-color: #fff;
+			border-radius: 12px;
+			height: auto;
+			margin: .5em 0;
+		}
 	}
 }

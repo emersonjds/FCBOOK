@@ -1,7 +1,6 @@
 .thanks-main {
-	height: calc(100% - 82px);
-	background-image: url('../img/bg-thanks.jpg');
-	@include flex;
+	height: auto;
+	background-color: #fff;
 }
 
 .msg-thanks {
@@ -10,4 +9,10 @@
 	width: 350px;
 	background-color: rgba(250, 250, 250, .6);
 	border-radius: 15px;
+}
+
+.box-total-items {
+	background-color: lightgray;
+	color: #000;
+	font-weight: bold;
 }
