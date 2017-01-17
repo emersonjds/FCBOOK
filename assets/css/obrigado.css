@@ -1,23 +1,23 @@
 /*
 Error: Undefined mixin 'flex'.
-        on line 7 of assets/css/obrigado.scss, in `flex'
-        from line 7 of assets/css/obrigado.scss
+        on line 8 of assets/css/obrigado.scss, in `flex'
+        from line 8 of assets/css/obrigado.scss
 
-2: 	height: auto;
-3: 	background-color: #fff;
-4: }
-5: 
-6: .msg-thanks {
-7: 	@include flex;
-8: 	height: 300px;
-9: 	width: 350px;
-10: 	background-color: rgba(250, 250, 250, .6);
-11: 	border-radius: 15px;
-12: }
+3: 	
+4: 	padding: .3em;
+5: }
+6: 
+7: .tks-title {
+8: 	@include flex;
+9: 	background-color: #fff;
+10: 	text-align:center;
+11: 	padding: .5em;
+12: 	margin-top: 5px;
+13: 	
 
 Backtrace:
-assets/css/obrigado.scss:7:in `flex'
-assets/css/obrigado.scss:7
+assets/css/obrigado.scss:8:in `flex'
+assets/css/obrigado.scss:8
 C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:351:in `block in visit_mixin'
 C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
@@ -69,4 +69,4 @@ C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/vendor/listen/lib/listen/adap
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'flex'.\A         on line 7 of assets/css/obrigado.scss, in `flex'\A         from line 7 of assets/css/obrigado.scss\A \A 2: 	height: auto;\A 3: 	background-color: #fff;\A 4: }\A 5: \A 6: .msg-thanks {\A 7: 	@include flex;\A 8: 	height: 300px;\A 9: 	width: 350px;\A 10: 	background-color: rgba(250, 250, 250, .6);\A 11: 	border-radius: 15px;\A 12: }"; }
+  content: "Error: Undefined mixin 'flex'.\A         on line 8 of assets/css/obrigado.scss, in `flex'\A         from line 8 of assets/css/obrigado.scss\A \A 3: 	\A 4: 	padding: .3em;\A 5: }\A 6: \A 7: .tks-title {\A 8: 	@include flex;\A 9: 	background-color: #fff;\A 10: 	text-align:center;\A 11: 	padding: .5em;\A 12: 	margin-top: 5px;\A 13: 	"; }

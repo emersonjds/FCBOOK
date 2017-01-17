@@ -15,8 +15,7 @@
   border: none; }
 
 .index-main {
-  height: auto;
-  background-color: #d1d1d1; }
+  height: auto; }
   .index-main .section-related-itens {
     padding: .5em; }
     .index-main .section-related-itens .row-book {

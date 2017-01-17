@@ -1,6 +1,16 @@
 .thanks-main {
 	height: auto;
+	
+	padding: .3em;
+}
+
+.tks-title {
+	@include flex;
 	background-color: #fff;
+	text-align:center;
+	padding: .5em;
+	margin-top: 5px;
+	
 }
 
 .msg-thanks {
@@ -11,8 +21,54 @@
 	border-radius: 15px;
 }
 
+.row-book {
+	background-color: #fff;
+	margin: .5em;
+	border: 1px solid black;
+	figure {
+		border: 1px solid black;
+	}
+}
+
 .box-total-items {
-	background-color: lightgray;
-	color: #000;
+	    border: 1px solid black;
+    height: 120px;
+    width: 100px;
+    position: fixed;
+    top: 240px;
+    right: 27px;
+    background: #f1c83e;
+    border-color: #a88734 #9c7e31;
+    color: #414a4c;
+	
+}
+
+.resume-title {
+	border: 1px solid black;
+	font-weigh: bold;
+	height: 30px;
+	align-text: center;
+	@include flex;
+	margin-bottom: -1px;
 	font-weight: bold;
+	color: #fff;
+	background-color: #dd9933;
+}
+
+.purchesad-book-area {
+	border: 1px solid #000;
+	
+}
+
+@media screen and (min-width: 480px) and (orientation: landscape) {
+	.box-total-items {
+		border: 1px solid black;
+		height: 120px;
+		width: 100px;
+		position: fixed;
+		top: 183spx;
+		right: 25px;
+		background-color: orange;
+		color: #fff;
+	}
 }
